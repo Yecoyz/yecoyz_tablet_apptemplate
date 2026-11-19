@@ -2,11 +2,11 @@
 
 A starting point for your own **yecoyz_tablet** app, built with React + Vite + TypeScript. It registers an app on the tablet and shows every part of the SDK working: loading data from Lua, messages from the server, notifications, closing the app and typing into text fields.
 
-The full SDK reference is in `yecoyz_tablet/sdk/README.md`.
+**Requires** `yecoyz_tablet` on your server. The full SDK reference is in `yecoyz_tablet/sdk/README.md`.
 
 ## Quick start
 
-1. Copy this folder into your resources and rename it (e.g. `my_tablet_app`). Nothing in the code depends on the folder name.
+1. Click **Use this template** on GitHub (or **Code → Download ZIP**) and put the folder in your resources under a name of your own (e.g. `my_tablet_app`). Nothing in the code depends on the folder name.
 2. Change `Config.app` in `config.lua`: at least a new **`id`** and **`label`**.
 3. Add it to `server.cfg` **after** the tablet:
    ```
